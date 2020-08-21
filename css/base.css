@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  background-color: black;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+#header{
+  height: 100px;
+  margin: 0 auto;
+}
+#header h1{
+  float: left;
+  font-size: 40px;
+}
+.logo{
+	width: 300px;
+	height: 100px;
+}
+
+#header h2{
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+#header p{
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  border: solid 3px #000000;
+	color: white;
+}
+
+.kago{
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+.A1{
+    color: #474747;
+    background: black;/*背景色*/
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
+}
+.A1 p {
+    margin: 0;
+    padding: 0;
+}
+
+#search{
+  width: 980px;
+  margin: 0 auto;
+}
+.search_menu{
+  float: left;
+  width: 670px;
+  height: 30px;
+  background-color: #001754;
+  display: flex;
+  align-items: center;
+}
+.search_menu p{
+  padding-left: 5px;
+  color: white;
+}
+#search_area{
+  width: 700px;
+  float: left;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.F1box {
+    padding-right: 20px;
+}
+.F2box {
+    padding-right: 200px;
+		padding-left: 20px;
+}
+.F3box {
+    padding-right: 20px;
+}
+#service_area img{
+  margin: 0 auto;
+}
+.F1{
+  width: 210px;
+  height: 210px;
+}
+.F2{
+  width: 210px;
+  height: 210px;
+}
+.F3{
+  width: 210px;
+  height: 210px;
+}
+.F1box ul {
+  text-align: center;
+}
+.F1box ul p {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+	color: white;
+}
+.F1box ul p1 {
+  font-size: 14px;
+	color: white;
+}
+.F2box ul {
+  text-align: center;
+}
+.F2box ul p {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+	color: white;
+}
+.F2box ul p1 {
+  font-size: 14px;
+	color: white;
+}
+.F3box ul {
+  text-align: center;
+}
+.F3box ul p {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+	color: white;
+}
+.F3box ul p1 {
+  font-size: 14px;
+	color: white;
+}
+
+#fes{
+  margin: 0 auto;
+}
+#fes img{
+  width: 280px;
+  height: 180px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+#fes p{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+	color: white;
+}
+
+#new{
+    float: left;
+    width: 670px;
+    height: 30px;
+    background-color: #001754;
+    display: flex;
+    align-items: center;
+}
+#new p{
+  padding-left: 5px;
+  color: white;
+}
+
+#new_music{
+  width: 700px;
+  float: left;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+#sinki{
+  width: 700px;
+  margin: 0 auto;
+}
+
+#new_music tr{
+	color: white;
+}
+
+#new_music td a{
+	color: white;
+}
